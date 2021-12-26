@@ -1,0 +1,100 @@
+@keyframes idk {
+    0% {opacity:0;}
+    100% {opacity: 1;}
+}
+@keyframes pls{
+    0% {opacity:0;}
+    100% {opacity: 1;}
+}
+body{
+    background-color: aliceblue;
+}
+:root{
+    --button-width:14rem;
+}
+
+#images{
+    border:2px solid black;
+    width:80%;
+    height:90%;
+    margin:1rem auto;
+}
+
+.frame{
+    animation: pls 1s;
+    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    height:100%;
+    width:100%;
+}
+
+#carousel{
+    width:70rem;
+    height:50rem;
+    border: 2px solid #000000;
+    margin:auto;
+    background-color: rgb(47, 50, 49); 
+}
+#left{
+    font-size: 3rem;
+    width:4rem;
+    margin:30% 0 0 1rem;
+    float: left;
+    background-color: rgb(9, 135, 246);
+}
+#right{
+    font-size: 3rem;
+    width:4rem;
+    margin:30% 1rem 0 0;
+    float: right;
+    background-color: rgb(9, 135, 246);
+}
+#balls{
+    display:flex;
+    /* border: 3px solid white; */
+    width:50%;
+    margin:auto;
+    justify-content: space-evenly;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: rgb(247, 246, 246);
+    border-radius: 50%;
+    /* display: inline-block; */
+}
+
+/* .dropDown{
+    font-size: 20px;
+    display: flex;
+    background-color: rgb(184, 209, 230);
+    flex-direction: column;
+    align-items:center;
+    border: 1px solid black;
+    margin: 0 0 1.5rem 0;
+    width:20rem;
+    height: 7rem;;
+    opacity: 0;
+}
+li{
+    list-style-type: none;
+    margin: 0.5rem 60% 0 0;
+}
+.active{
+    opacity: 1;
+    animation: idk 1.6s;
+    animation-direction: alternate;
+}
+@media (max-width:900px){
+    :root{
+    --button-width:13rem;
+    }
+}
+#rolling{
+    border: 2px solid black;
+    width: var(--button-width);
+    background-color: aliceblue;
+    user-select: none;
+}
+#rolling:hover{
+    background-color: rgb(0, 94, 255);
+} */
